@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px){
+    span#men{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu li {
+        display: inline-block;
+        width: 15vw;;
+    }
+    main{
+        max-width: 868px;
+    }
+    main p{
+        font-size: 1.3em;
+    }
+}
